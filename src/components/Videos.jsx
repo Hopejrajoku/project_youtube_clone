@@ -14,6 +14,7 @@ const Videos = ({ videos, direction }) => {
           {item.id.channelId && <ChannelCard channelDetail={item} />}
         </Box>
       ))}
+      
     </Stack>
   );
 }
